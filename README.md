@@ -37,8 +37,31 @@ Execute o comando abaixo
     composer create-project codeigniter4/appstarter project
 
 ### Iniciando aplicação
+
+#### Utilizando PHP
     php -S localhost:8000 -t public<br />
 
+#### Utilizando spark
+    php spark serve
+
+Automaticamente inicia o servidor utilizando a porta 8080, caso queira alterar utilize o comando abaixo
+
+    php spark serve --port 8000
+
+Caso queira adicione um host <br />
+  Linux/Mac => /etc/hosts<br />
+  Windows => C:\Windows\System32\drivers\etc <br />
+  execute o bloco de notas como administrador e abra o arquivo hosts<br />
+  127.0.0.1 localhost hostdesejado<br />
+  Salve as alterações
+
+execute o comando abaixo
+
+    php spark serve --host hostdesejado
+
+Exemplo definindo host e porta específico
+
+    php spark serve --port 80 --host meus-agendamentos.test
 
 ---
 ---
