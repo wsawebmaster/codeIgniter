@@ -39,7 +39,7 @@ Execute o comando abaixo
 ### Iniciando aplicação
 
 #### Utilizando PHP
-    php -S localhost:8000 -t public<br />
+    php -S localhost:8000 -t public
 
 #### Utilizando spark
     php spark serve
